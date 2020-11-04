@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BIgmama uml 3", "BIgmama uml 3\BIgmama uml 3.csproj", "{07E10F51-5151-497F-8FDB-17D3EC0BDE47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MamaTest", "MamaTest\MamaTest.csproj", "{C5F3372B-1008-4F11-A26E-F63369E2E230}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07E10F51-5151-497F-8FDB-17D3EC0BDE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E10F51-5151-497F-8FDB-17D3EC0BDE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E10F51-5151-497F-8FDB-17D3EC0BDE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E10F51-5151-497F-8FDB-17D3EC0BDE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F3372B-1008-4F11-A26E-F63369E2E230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F3372B-1008-4F11-A26E-F63369E2E230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F3372B-1008-4F11-A26E-F63369E2E230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F3372B-1008-4F11-A26E-F63369E2E230}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A405484-97C1-41D6-9644-9BAE2C91D40C}
+	EndGlobalSection
+EndGlobal
