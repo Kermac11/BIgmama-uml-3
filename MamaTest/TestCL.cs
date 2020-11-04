@@ -109,5 +109,25 @@ namespace MamaTest
             IMenuItem b1 = new Beverage(4,"cola", "Bobler",78, MenuType.Pizza, true, false, false);
             Assert.AreEqual(2, mc.FindAllOrganic(MenuType.Pizza).Count);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(MenuItemNumberExist))]
+        public void DoubleAddFail()
+        {
+            IMenuCatalog mc = new MenuCatalog();
+            IMenuItem p1 = new Pizza(1, "LIVER KILLER", "ÅLdont eat this", 27, MenuType.Pizza, true, false, true);
+            mc.Add(p1);
+            mc.Add(p1);
+
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(MenuItemDoesNotExist))]
+        public void RemoveFail()
+        {
+            IMenuCatalog mc = new MenuCatalog();
+            IMenuItem p1 = new Pizza(1, "LIVER KILLER", "ÅLdont eat this", 27, MenuType.Pizza, true, false, true);
+            mc.Delete(1);
+        }
     }
 }
