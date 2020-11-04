@@ -126,7 +126,6 @@ namespace MamaTest
         public void RemoveFail()
         {
             IMenuCatalog mc = new MenuCatalog();
-            IMenuItem p1 = new Pizza(1, "LIVER KILLER", "ÅLdont eat this", 27, MenuType.Pizza, true, false, true);
             mc.Delete(1);
         }
     }
